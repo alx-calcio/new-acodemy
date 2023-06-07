@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Acodemy</title>
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="hero-section">
+          <img data-speed=".6" class="hero" src="img/hero.jpg" alt="Alt" />
+          <div class="container">
+            <div data-speed=".75" class="main-header">
+              <h1 class="animate-charcter">ACODEMY</h1>
+            </div>
+          </div>
+        </header>
+
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img class="gallery__item" src="img/work/1.png" alt="Alt" />
+
+                <div class="text-block gallery__item">
+                  <h1 aria-label="Hi! I'm a developer" class="text-block__h">
+                    On utilise&nbsp;<span class="typewriter thick"></span>
+                    <br/>
+                  </h1>
+                  <p class="text-block__p">
+                    Tous les langages nous intéressent ! <br />
+                    Que ce soit pour la dev application avec React Native et
+                    Swift, pour le web (React, Html, Css, Js), pour
+                    l'intelligence artificielle (Python) ou le développement de
+                    jeux vidéos (Unity), on est toujours dispos pour apprendre
+                    des nouvelles langues !
+                  </p>
+                </div>
+
+                <img class="gallery__item" src="img/work/6.jpg" alt="Alt" />
+              </div>
+
+              <div data-speed="1.1" class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Premier groupe informatique de Franklin
+                  </h2>
+                  <p class="text-block__p">
+                    Une grande communauté franklinoise, d'élèves de toutes les
+                    divisions et tous les niveaux, avant tout passionnés par
+                    l'informatique, la programmation ...
+                    <br />
+                    Hâte de t'accueillir !
+                  </p>
+                </div>
+                <img class="gallery__item" src="img/work/4.png" alt="Alt" />
+                <img class="gallery__item" src="img/work/5.png" alt="Alt" />
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                  Envie de nous rejoindre ?
+                  </h2>
+                  <p class="text-block__p">
+                    Tu as envie de participer ? Tout est gratuit et aucun matériel nécessaire !
+                    <br />
+                    On t'encourage juste à t'inscrire sur <a class="link" href="https://discord.gg/TmF2DDpPHp">notre groupe Discord</a> pour en savoir plus...
+                  </p>
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
