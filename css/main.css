@@ -40,7 +40,8 @@ body {
   will-change: transform;
 }
 .hero {
-  height: 100vh;
+  max-height: 100vh;
+  max-width: 100vw;
 }
 .hero-section {
   width: 100vw;
