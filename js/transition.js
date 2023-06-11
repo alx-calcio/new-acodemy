@@ -1,5 +1,5 @@
 
-consoleText(['React', 'React Native', 'Python', 'Html', 'Css', 'Javascript'], 'text',['#61DBFB','#FFA611','#ffdd51', "#d92c00", "#006ab4", "#f0dc4e"]);
+consoleText(['React', 'Python', 'Html', 'Css', 'Javascript'], 'text',['#61DBFB','#ffdd51', "#d92c00", "#006ab4", "#f0dc4e"]);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
