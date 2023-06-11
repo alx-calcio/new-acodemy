@@ -49,7 +49,6 @@ body {
   text-align: center;
 }
 .main-header {
-  width: 100vw;
   display: inline-flex;
   z-index: 2;
   position: absolute;
